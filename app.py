@@ -13,7 +13,7 @@ moment = Moment(app)
 
 @app.route('/')
 def home():
-    return '<h1>Soon</h1>'
+    return render_template('page/home.html')
 
 
 if __name__ == '__main__':
